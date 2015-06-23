@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "mymod",
+  "name": "Michal's Mod",
+  "description": "My mod playground mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Michal"],
+  "credits": "The Forge and FML guys; Minecraft Modding with Forge",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
