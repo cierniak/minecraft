@@ -1,6 +1,6 @@
 package net.cierniak.forge.mods;
 
-import net.minecraft.init.Blocks;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -14,7 +14,6 @@ public class Main
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        // some example code
-        System.out.println("DIRT BLOCK 2 >> "+Blocks.dirt.getUnlocalizedName());
+        MinecraftForge.EVENT_BUS.register(new BlockBreakMessage());
     }
 }
